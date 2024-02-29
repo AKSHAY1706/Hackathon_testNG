@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-28T22:51:30 IST" name="Suite" finished-at="2024-02-28T22:52:28 IST" duration-ms="58710">
+    <groups>
+    </groups>
+    <test started-at="2024-02-28T22:51:30 IST" name="Test_chrome" finished-at="2024-02-28T22:52:28 IST" duration-ms="58710">
+      <class name="TestCases.TC_02_errorcapture">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_02_errorcapture@5824a83d]" started-at="2024-02-28T22:52:03 IST" name="setup" finished-at="2024-02-28T22:52:14 IST" duration-ms="11139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="fillForm()[pri:1, instance:TestCases.TC_02_errorcapture@5824a83d]" started-at="2024-02-28T22:52:14 IST" name="fillForm" finished-at="2024-02-28T22:52:26 IST" duration-ms="12302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillForm -->
+        <test-method signature="submit()[pri:2, instance:TestCases.TC_02_errorcapture@5824a83d]" started-at="2024-02-28T22:52:27 IST" name="submit" finished-at="2024-02-28T22:52:27 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit -->
+        <test-method signature="printErrorMessage()[pri:3, instance:TestCases.TC_02_errorcapture@5824a83d]" started-at="2024-02-28T22:52:27 IST" name="printErrorMessage" finished-at="2024-02-28T22:52:27 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printErrorMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_02_errorcapture@5824a83d]" started-at="2024-02-28T22:52:27 IST" name="tearDown" finished-at="2024-02-28T22:52:28 IST" duration-ms="1148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_02_errorcapture -->
+      <class name="TestCases.TC_01_Firstpage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_01_Firstpage@6fdbe764]" started-at="2024-02-28T22:51:30 IST" name="setup" finished-at="2024-02-28T22:51:42 IST" duration-ms="12208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Webdevinput()[pri:1, instance:TestCases.TC_01_Firstpage@6fdbe764]" started-at="2024-02-28T22:51:42 IST" name="Webdevinput" finished-at="2024-02-28T22:51:50 IST" duration-ms="7534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Webdevinput -->
+        <test-method signature="filterResult()[pri:2, instance:TestCases.TC_01_Firstpage@6fdbe764]" started-at="2024-02-28T22:51:50 IST" name="filterResult" finished-at="2024-02-28T22:51:54 IST" duration-ms="3538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterResult -->
+        <test-method signature="fetchCourseDetails()[pri:3, instance:TestCases.TC_01_Firstpage@6fdbe764]" started-at="2024-02-28T22:51:54 IST" name="fetchCourseDetails" finished-at="2024-02-28T22:52:02 IST" duration-ms="8071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchCourseDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_01_Firstpage@6fdbe764]" started-at="2024-02-28T22:52:02 IST" name="tearDown" finished-at="2024-02-28T22:52:03 IST" duration-ms="1155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_01_Firstpage -->
+    </test> <!-- Test_chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
